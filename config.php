@@ -67,22 +67,22 @@ define('MAIL_SENDMAIL_COMMAND', '/usr/sbin/sendmail -bs');
 define('DB_RUN_MIGRATIONS', true);
 
 // Database driver: sqlite, mysql, postgres, odbc, dblib, or mssql (sqlite by default)
-define('DB_DRIVER', 'sqlite');
+define('DB_DRIVER', 'postgres');
 
 // Database username
-define('DB_USERNAME', 'root');
+define('DB_USERNAME', 'jpruezkiez');
 
 // Database password
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'kapa2122_');
 
 // Database hostname
-define('DB_HOSTNAME', 'localhost');
+define('DB_HOSTNAME', '34.23.173.209');
 
 // Database database name
 define('DB_NAME', 'kanboard');
 
 // Database custom port (null = default port)
-define('DB_PORT', null);
+define('DB_PORT', 5432);
 
 // Mysql SSL key
 define('DB_SSL_KEY', null);
