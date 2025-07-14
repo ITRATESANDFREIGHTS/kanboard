@@ -22,7 +22,7 @@ data/files
 data/cache
 data/config.php
 *.bak
-/config.php
+config.php
 !docker/var/wwww/app/config.php
 node_modules
 .phpunit.result.cache
